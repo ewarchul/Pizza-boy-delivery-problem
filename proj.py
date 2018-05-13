@@ -12,17 +12,7 @@ from simanneal import Annealer
 #rw_handler = open('randwalk.txt', 'a')
 astar_handler = open('astar.txt', 'a')
 astar_c_handler = open('astar_c.txt', 'a')
-#
-# #README
-# Algorytmy w nastepujacej kolejnosci: Wyżarzanie, bladzenie, A*
-# Kod jest troche poplatany bo nie ogarniam obiektowosci a nawet metod w pythonie
-# Nie polecam ziom zmieniac za duzo bo sa zmienne ktore ida przez caly plik i niektore nie uzywaja wartosci
-# z poprzednich algorytmow (czyli uzylem tylko tej samej nazwy zmiennej) a niektore jak na przyklad
-# zbior wszystkich najkrotszych sciezek sa tworzone raz i uzywane z tej samej zmiennej we wszystkich algorytmach
-# Algorytm dostaje na wejscie wektor wierzcholkow ktore musi odwiedzic (nie moze wystapic 0)
-# na wyjsciu wyrzuca kolejnosc w jakiej odwiedzi wierzcholki (da sie z tego zrobic pelna sciezke) i
-# wartosc funkcji celu (czyli miks wszystkiego)
-# Mozliwe, ze znajde czas zeby uporzadkowac to bardziej, ale licze ze ni bedzie takiej potrzby
+
 
 number_of_nodes = 80
 number_of_edges = 4
